@@ -102,27 +102,13 @@ ul, ol {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
-  font-weight: 600;
   color: var(--color-text);
 }
 
-.brand-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 0.75rem;
-  background: var(--color-accent);
-  color: #121212;
-  font-family: var(--font-heading);
-  font-weight: 600;
-}
-
-.brand-text {
-  font-size: 1.05rem;
-  letter-spacing: 0.02em;
+.brand-logo {
+  display: block;
+  height: 2.75rem;
+  width: auto;
 }
 
 .site-nav {
