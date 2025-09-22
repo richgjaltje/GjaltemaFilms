@@ -36,9 +36,27 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
 a:hover,
 a:focus {
   text-decoration: underline;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 img {
@@ -100,15 +118,21 @@ ul, ol {
 }
 
 .brand {
+  position: relative;
   display: inline-flex;
   align-items: center;
-  color: var(--color-text);
+  text-decoration: none;
+  color: inherit;
 }
 
 .brand-logo {
   display: block;
-  height: 2.75rem;
-  width: auto;
+  width: clamp(2.8rem, 8vw, 3.4rem);
+  aspect-ratio: 502 / 570;
+  background-image: url('../../LOGO.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .site-nav {
