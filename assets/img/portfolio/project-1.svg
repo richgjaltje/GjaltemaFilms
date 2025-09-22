@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Drone overzicht</title>
+  <desc id="desc">Illustratieve thumbnail voor drone project met goud accent.</desc>
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1a" />
+      <stop offset="100%" stop-color="#121212" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg1)" />
+  <path d="M80 90h440v6H80z" fill="#C9A227" />
+  <text x="60" y="170" fill="#FFFFFF" font-size="44" font-family="'Poppins', sans-serif">Drone overzicht</text>
+  <text x="60" y="230" fill="#C9A227" font-size="24" font-family="'Inter', sans-serif">Drone</text>
+  <circle cx="500" cy="300" r="60" stroke="#C9A227" stroke-width="6" fill="none" />
+  <path d="M500 255l-24 32h48z" fill="#C9A227" />
+</svg>

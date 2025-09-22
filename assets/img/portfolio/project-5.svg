@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Productvideo</title>
+  <desc id="desc">Thumbnail voor productvideo met lichtaccent.</desc>
+  <rect width="600" height="400" fill="#101010" />
+  <ellipse cx="180" cy="200" rx="110" ry="150" fill="#181818" />
+  <ellipse cx="180" cy="200" rx="70" ry="100" fill="#C9A227" opacity="0.3" />
+  <text x="60" y="200" fill="#FFFFFF" font-size="44" font-family="'Poppins', sans-serif">Productvideo</text>
+  <text x="60" y="260" fill="#C9A227" font-size="24" font-family="'Inter', sans-serif">Product</text>
+  <rect x="320" y="160" width="220" height="120" fill="#1f1f1f" stroke="#C9A227" stroke-width="4" />
+  <polygon points="420,190 460,220 420,250" fill="#C9A227" />
+</svg>

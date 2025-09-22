@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Bedrijfsshoot</title>
+  <desc id="desc">Illustratieve thumbnail voor bedrijfsvideo met storyboard-element.</desc>
+  <rect width="600" height="400" fill="#101010" />
+  <rect x="40" y="60" width="520" height="280" rx="12" fill="#181818" stroke="#2a2a2a" stroke-width="4" />
+  <rect x="60" y="90" width="180" height="16" fill="#C9A227" />
+  <text x="60" y="220" fill="#FFFFFF" font-size="44" font-family="'Poppins', sans-serif">Bedrijfsshoot</text>
+  <text x="60" y="280" fill="#C9A227" font-size="24" font-family="'Inter', sans-serif">Videoproductie</text>
+  <rect x="360" y="120" width="160" height="100" fill="#1f1f1f" stroke="#C9A227" stroke-width="4" />
+  <line x1="360" y1="170" x2="520" y2="170" stroke="#C9A227" stroke-width="4" />
+  <line x1="440" y1="120" x2="440" y2="220" stroke="#C9A227" stroke-width="4" />
+</svg>
