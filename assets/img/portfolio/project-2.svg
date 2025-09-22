@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Event hoogtepunten</title>
+  <desc id="desc">Thumbnail voor eventregistratie met podiumillustratie.</desc>
+  <rect width="600" height="400" fill="#121212" />
+  <rect x="0" y="0" width="600" height="160" fill="#1d1d1d" />
+  <rect x="60" y="70" width="120" height="20" fill="#C9A227" />
+  <text x="60" y="220" fill="#FFFFFF" font-size="44" font-family="'Poppins', sans-serif">Event hoogtepunten</text>
+  <text x="60" y="280" fill="#C9A227" font-size="24" font-family="'Inter', sans-serif">Event</text>
+  <g fill="#FFFFFF">
+    <circle cx="420" cy="280" r="42" fill="#1d1d1d" stroke="#C9A227" stroke-width="6" />
+    <rect x="394" y="310" width="52" height="12" fill="#C9A227" />
+  </g>
+</svg>
