@@ -129,7 +129,7 @@ ul, ol {
   display: block;
   width: clamp(2.8rem, 8vw, 3.4rem);
   aspect-ratio: 502 / 570;
-  background-image: url('../../LOGO.png');
+  background-image: url('../img/logo.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -276,6 +276,14 @@ ul, ol {
   border-radius: 1.5rem;
   overflow: hidden;
   box-shadow: var(--shadow-medium);
+  justify-self: center;
+  max-width: min(420px, 100%);
+}
+
+.hero-media img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .section {
@@ -718,6 +726,10 @@ ul, ol {
 @media (min-width: 900px) {
   .hero-grid {
     grid-template-columns: 1.1fr 0.9fr;
+  }
+
+  .hero-media {
+    justify-self: end;
   }
 }
 
